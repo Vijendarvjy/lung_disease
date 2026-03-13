@@ -1,0 +1,21 @@
+setuptools
+wheel
+streamlit==1.52.0
+
+numpy
+pandas
+scikit-learn
+xgboost
+joblib
+matplotlib
+
+# HEADLESS OpenCV — must be present and pinned BEFORE ultralytics
+opencv-python-headless==4.11.0.86
+
+# ultralytics (optional)
+ultralytics==8.3.235
+
+torch
+torchvision
+dill
+shap
