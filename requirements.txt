@@ -1,9 +1,19 @@
 streamlit==1.33.0
-numpy==1.26.4
-pandas==2.2.2
-Pillow==10.3.0
-torch==2.2.2
-torchvision==0.17.2
-ultralytics==8.2.0
-opencv-python-headless==4.9.0.80
-python-dotenv==1.0.1
+
+# Core
+numpy
+pandas
+Pillow
+
+# Deep Learning (CPU versions auto-installed on Streamlit Cloud)
+torch
+torchvision
+
+# YOLO
+ultralytics
+
+# FIX for libGL issue
+opencv-python-headless
+
+# Utils
+python-dotenv
