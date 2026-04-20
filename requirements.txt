@@ -1,21 +1,19 @@
-setuptools
-wheel
-streamlit==1.52.0
+streamlit==1.33.0
 
+# Core
 numpy
 pandas
-scikit-learn
-xgboost
-joblib
-matplotlib
+Pillow
 
-# HEADLESS OpenCV — must be present and pinned BEFORE ultralytics
-opencv-python-headless==4.11.0.86
-
-# ultralytics (optional)
-ultralytics==8.3.235
-
+# Deep Learning (CPU versions auto-installed on Streamlit Cloud)
 torch
 torchvision
-dill
-shap
+
+# YOLO
+ultralytics
+
+# FIX for libGL issue
+opencv-python-headless
+
+# Utils
+python-dotenv
